@@ -10,7 +10,7 @@ void setup()
 void loop()
 {
   digitalWrite(LED_BUILTIN, HIGH); //enciendo el Led
-  delay(segundos(1));
+  delay(segundos(1)); //Tiempo de espera
   digitalWrite(LED_BUILTIN, LOW); //apago el Led
   delay(segundos(2));
 }
