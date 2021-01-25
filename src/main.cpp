@@ -3,7 +3,7 @@
 
 void setup()
 {
-  //inicializo el pin13 que esta en la placa
+  //inicializo el pin13 que en Arduino es un leden la placa
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
